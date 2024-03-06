@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PrefaceFragment">
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="50dp"
+        android:text="PREFAȚĂ"
+        android:textAlignment="center"
+        android:textSize="22dp"
+        android:textStyle="italic"
+    />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="100dp"
+        android:layout_marginBottom="100dp"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp">
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="   Lucrarea de faţă este destinată studenţilor secţiilor de inginerie, care pe parcursul anului I de
+        studiu, au în planul de învăţământ disciplina de Desen tehnic. Scopul acestei forme de prezentare a
+        lucrării (varianta on-line) este de facilita studenţilor dependenţi de mijloacele de comunicare electronice
+        moderne - începând cu cel mai simplu telefon prevăzut cu cameră foto şi terminând cu cel mai avansat
+        laptop miniatural - un acces rapid la informaţie.
+        În cazul de faţă, informaţia constă în totalitatea regulilor care guvernează desenul tehnic.
+        Lucrarea de faţă există şi sub formă tipărită (Tero,M., Bucur,B. şi Bratu,G. - Geometrie descriptivă şi
+        desen tehnic, Editura Napoca Star, Cluj-Napoca, 2013) dar s-a constatat un interes scăzut pentru această
+        formă de prezentare, studenţii preferând să fotografieze cu telefonul din dotare, paginile cu regulile de
+        desen din carte. Ca să nu-şi încarce inutil memoria de pe cartela SIM a telefonului (păstrând-o pentru
+        selfi-uri şi videoclipuri) am decis să le oferim studenţilor varianta on-line a cursului, păstrând
+        numerotarea figurilor din carte.
+        Avem speranţa că soluţia aceasta de prezentare a regulilor de desen va fi pe placul studenţilor
+        care studiază ingineria permiţându-le astfel o mai bună pregătire de specialitate."
+
+            android:textSize="18sp" />
+
+    </ScrollView>
+
+</FrameLayout>
